@@ -1,0 +1,39 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 0.5rem;
+}
+
+.block {
+    border: 2px solid black;
+    padding: 1em;
+    border-radius: 10px;
+    
+}
+
+.block-1 {
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+ h2, h3 {
+    text-align: center;
+    font-size: 2em;
+ }
+
+.location{
+    text-align: center;
+}

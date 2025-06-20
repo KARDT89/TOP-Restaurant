@@ -1,11 +1,24 @@
 import homepage from "./homepage" 
+import "./globals.css"
+import menu from "./menu";
+import About from "./about";
 
-const home = document.getElementById("home")
+const homeBtn = document.getElementById("home")
+const menuBtn = document.getElementById("menu")
+const aboutBtn = document.getElementById("about")
 
 document.addEventListener("DOMContentLoaded", (event) => {
   homepage()
 });
 
-home.addEventListener("click", () => {
+homeBtn.addEventListener("click", () => {
     homepage()
+})
+
+menuBtn.addEventListener("click", () => {
+  menu()
+})
+
+aboutBtn.addEventListener("click", () => {
+  About()
 })
