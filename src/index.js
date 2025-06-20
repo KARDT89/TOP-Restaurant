@@ -22,3 +22,12 @@ menuBtn.addEventListener("click", () => {
 aboutBtn.addEventListener("click", () => {
   About()
 })
+
+// Create a new footer element
+const footerElement = document.createElement('footer');
+
+// Add content to the footer
+footerElement.innerHTML = '<p>&copy; 2025 TheOdinProject Resturent Page. Made with ❤️ by <span id="dt89">DT89</span></p>';
+
+// Append the footer to the body of the document
+document.body.appendChild(footerElement);

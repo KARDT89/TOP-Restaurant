@@ -27,6 +27,7 @@ ul {
 h1 {
     font-size: 3em;
     text-align: center;
+
 }
 
  h2, h3 {
@@ -36,4 +37,8 @@ h1 {
 
 .location{
     text-align: center;
+}
+
+img {
+    width: 300px;
 }

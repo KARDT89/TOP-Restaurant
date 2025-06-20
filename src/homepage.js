@@ -1,4 +1,5 @@
 import cheers from "../public/cheers.png";
+import chillasf from "../public/chillasf.png"
 import "./homepage.css"
 
 function homepage() {
@@ -39,7 +40,7 @@ function homepage() {
   const block1 = document.createElement("div");
   block1.classList.add("block", "block-1");
   const image = document.createElement("img");
-  image.src = cheers;
+  image.src = chillasf;
   image.width = "200";
   const paragraph = document.createElement("p");
   paragraph.classList.add("block-1-text");
@@ -80,10 +81,14 @@ function homepage() {
   block3.appendChild(h3);
   block3.appendChild(location);
 
+  const block6 = document.createElement("div")
+  block6.classList.add("container-2")
+
   container.appendChild(h1);
   container.appendChild(block1);
-  container.appendChild(block2);
-  container.appendChild(block3);
+  block6.appendChild(block2);
+  block6.appendChild(block3);
+  container.appendChild(block6)
   content.appendChild(container);
 }
 

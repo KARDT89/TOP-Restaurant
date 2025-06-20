@@ -21,7 +21,7 @@ const menu = () => {
     "<b>Non-Alcoholic Beer</b> – <i>All taste, no buzz</i> <span style='float:right;'>₹149</span>",
   ];
   const block1 = document.createElement("div");
-  block1.classList.add("block", "block-3");
+  block1.classList.add("block", "block-4");
   const ul = document.createElement("ul");
   ul.classList.add("beer-menu")
   beerMenu.forEach((beer) => {
